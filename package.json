@@ -1,7 +1,7 @@
 {
-  "name": "aws-sdk-mock",
+  "name": "@havenlife/aws-sdk-mock-node10",
   "version": "4.1.0",
-  "description": "Functions to mock the JavaScript aws-sdk ",
+  "description": "Functions to mock the JavaScript aws-sdk and use havenlife-aws-sdk ",
   "main": "index.js",
   "files": [
     "index.js"
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/dwyl/aws-sdk-mock#readme",
   "dependencies": {
-    "aws-sdk": "^2.260.1",
+    "@havenlife/aws-sdk-node10": "2.313.0",
     "sinon": "^6.0.0",
     "traverse": "^0.6.6"
   },
