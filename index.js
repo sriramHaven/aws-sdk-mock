@@ -12,7 +12,7 @@
 
 var sinon = require('sinon');
 var traverse = require('traverse');
-var _AWS  = require('aws-sdk');
+var _AWS  = require('@havenlife/aws-sdk-node10');
 var Readable = require('stream').Readable;
 
 var AWS      = {};
